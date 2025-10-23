@@ -88,7 +88,7 @@
 
 
 
-        // Menu Hamburger - Code à ajouter dans tous les fichiers
+         // Menu Hamburger - Code à ajouter dans tous les fichiers
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.querySelector('.mobile-menu');
     const nav = document.querySelector('nav ul');
@@ -140,4 +140,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-    

@@ -425,7 +425,7 @@
         }
 
         .program-card {
-            background-color: white;
+            background-color: rgb(241, 241, 241);
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
@@ -471,7 +471,7 @@
 
         /* Stats Section */
         .stats {
-            background: linear-gradient(rgba(12, 255, 12, 0.363), rgba(255, 230, 3, 0.486)), url('https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80');
+            background: linear-gradient(rgba(3, 3, 3, 0.363), rgba(216, 5, 5, 0.295)),url(/img/image.jpg) ;
             background-size: cover;
             background-position: center;
             color: white;
@@ -494,12 +494,12 @@
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
-            color: red;
+            color: var(--primary);
         }
 
         .stat-text {
             font-size: 1.2rem;
-            color: #000000;
+            color: #fff;
         }
 
         /* News Section */
@@ -680,8 +680,8 @@
         width: 80%;
         max-width: 300px;
         height: 100vh;
-        background-color: #0000005d;
-        backdrop-filter: blur(9px);
+        background-image: linear-gradient(rgb(248, 211, 4),rgb(0, 128, 0));
+        backdrop-filter: blur(7px);
         flex-direction: column;
         padding: 2rem;
         transition: right 0.3s ease;
@@ -698,14 +698,14 @@
     }
     
     nav ul a {
-        color: rgb(255, 255, 255) !important;
+        color: rgb(0, 0, 0);
         font-size: 1.1rem;
         padding: 0.5rem 0;
         display: block;
     }
     
     nav ul a::after {
-        background-color: var(--secondary);
+        background-color: var(--primary);
     }
     
     .mobile-menu {
@@ -743,7 +743,7 @@
             }
             
             nav ul {
-                display: none;
+                display: flex;
             }
             
             .mobile-menu {
@@ -759,7 +759,7 @@
          
             
              /* Styles pour le menu mobile */
-    nav ul {
+      nav ul {
         position: fixed;
         top: 0;
         right: -100%;

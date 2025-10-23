@@ -50,7 +50,7 @@
         }
 
         .top-bar-social a {
-            color: white;
+            color: rgb(0, 0, 0);
             margin-left: 1rem;
             transition: color 0.3s;
         }
@@ -314,32 +314,22 @@
             border: 1px solid #f5f5f5;
         }
 
-        /* Map Section */
-        .map-section {
-            padding: 0 2rem 5rem;
+          .map-section {
+            padding: 0 0 5rem;
         }
 
         .map-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            border-radius: 10px;
+            height: 400px;
+            border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow);
         }
 
-        .map-placeholder {
-            height: 400px;
-            background: linear-gradient(rgba(24, 95, 15, 0.493),rgba(255, 225, 0, 0.493)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
-            text-align: center;
-            padding: 2rem;
+        #map {
+            height: 100%;
+            width: 100%;
         }
+
 
         /* Footer */
         footer {
@@ -519,7 +509,7 @@
             }
             
             nav ul {
-                display: none;
+                display: flex;
             }
             
             .mobile-menu {
@@ -540,8 +530,8 @@
         width: 80%;
         max-width: 300px;
         height: 100vh;
-        background-color: #0000005d;
-        backdrop-filter: blur(9px);
+        background-image: linear-gradient(rgb(248, 211, 4),rgb(0, 128, 0));
+        backdrop-filter: blur(7px);
         flex-direction: column;
         padding: 2rem;
         transition: right 0.3s ease;
@@ -558,14 +548,14 @@
     }
     
     nav ul a {
-        color: rgb(255, 255, 255) !important;
+        color: rgb(0, 0, 0);
         font-size: 1.1rem;
         padding: 0.5rem 0;
         display: block;
     }
     
     nav ul a::after {
-        background-color: var(--secondary);
+        background-color: var(--primary);
     }
     
     .mobile-menu {

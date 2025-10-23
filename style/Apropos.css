@@ -1,6 +1,6 @@
 
         :root {
-            --primary: #003366;
+            --primary: #00af1d;
             --secondary: #CC9933;
             --accent: #0066CC;
             --light: #f8f9fa;
@@ -23,8 +23,8 @@
 
         /* Header */
         .top-bar {
-            background-color: var(--primary);
-            color: white;
+            background-color: #fff;
+            color: rgb(0, 0, 0);
             padding: 0.5rem 0;
             font-size: 0.9rem;
         }
@@ -60,8 +60,9 @@
 
         /* Navigation */
         header {
-            background-color: white;
+            background-image: linear-gradient(rgba(248, 211, 4, 0.493),rgba(0, 128, 0, 0.493));
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            backdrop-filter: blur(7px);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -100,7 +101,7 @@
 
         .logo-text h1 {
             font-size: 1.8rem;
-            color: var(--primary);
+            color: #00af1d;
             margin-bottom: 0.2rem;
         }
 
@@ -147,15 +148,15 @@
             display: none;
             font-size: 1.5rem;
             cursor: pointer;
-            color: var(--primary);
+            color: #17c700;
         }
 
         /* Hero Section À Propos */
         .hero-about {
             height: 50vh;
-            background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.9)), url('https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80');
-            background-size: cover;
-            background-position: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(77, 69, 1, 0.9)),url(../img/IMG_4583.JPG);
+            background-size: cover; 
+            background-position:center;   
             display: flex;
             align-items: center;
             color: white;
@@ -177,6 +178,7 @@
         .hero-about h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
+            color: rgb(255, 230, 0);
         }
 
         .hero-about p {
@@ -184,12 +186,6 @@
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.6;
-        }
-
-        /* Breadcrumb */
-        .breadcrumb {
-            background-color: var(--light);
-            padding: 1rem 0;
         }
 
         .breadcrumb-container {
@@ -219,7 +215,7 @@
 
         .section-title h2 {
             font-size: 2.5rem;
-            color: var(--primary);
+            color: rgb(255, 230, 0);
             position: relative;
             display: inline-block;
             margin-bottom: 1rem;
@@ -233,7 +229,7 @@
             transform: translateX(-50%);
             width: 80px;
             height: 4px;
-            background-color: var(--secondary);
+            background-color: var(--primary);
         }
 
         .section-title p {
@@ -264,6 +260,7 @@
             height: auto;
             display: block;
             transition: transform 0.5s ease;
+            background-image: linear-gradient(rgba(219, 222, 224, 0.8), rgba(77, 69, 1, 0.9))
         }
 
         .histoire-img:hover img {
@@ -587,7 +584,7 @@
 
         /* Footer */
         footer {
-            background-color: var(--primary);
+            background-color:rgba(0, 0, 0, 0.753);
             color: white;
             padding: 4rem 2rem 2rem;
         }
@@ -724,12 +721,14 @@
                 width: 80%;
                 max-width: 300px;
                 height: 100vh;
-                background-color: var(--primary);
+                background-image: linear-gradient(rgb(248, 211, 4),rgb(0, 128, 0));
+                backdrop-filter: blur(7px);
                 flex-direction: column;
                 padding: 6rem 2rem 2rem;
                 transition: right 0.3s ease;
                 z-index: 999;
-                box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.692);
+                
             }
             
             nav ul.active {
@@ -741,14 +740,14 @@
             }
             
             nav ul a {
-                color: white !important;
+                color: rgb(0, 0, 0);
                 font-size: 1.1rem;
                 padding: 0.5rem 0;
                 display: block;
             }
             
             nav ul a::after {
-                background-color: var(--secondary);
+                background-color: var(--primary);
             }
             
             .mobile-menu {

@@ -53,23 +53,6 @@
             const logoIcon = document.querySelector('.logo i');
             logoIcon.style.animation = 'pulse 2s infinite';
         });
-
-        // Menu hamburger functionality
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        
-        hamburger.addEventListener('click', function() {
-            this.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-        
-        // Close menu when clicking on a link
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', function() {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
         
         // Text rotation in hero section
         const textCarousels = document.querySelectorAll('.text-carousel');
@@ -125,8 +108,7 @@
             });
         });
 
-
-// Menu Hamburger - Code à ajouter dans tous les fichiers
+  // Menu Hamburger - Code à ajouter dans tous les fichiers
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.querySelector('.mobile-menu');
     const nav = document.querySelector('nav ul');
@@ -178,3 +160,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+

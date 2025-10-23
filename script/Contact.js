@@ -93,5 +93,33 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+  // Initialize map
+        function initMap() {
+            // Coordinates for Matadi, Kongo Central, RDC
+            const matadi = [-5.83424729389056, 13.451377647089606];
+            
+            // Create map
+            const map = L.map('map').setView(matadi, 13);
+            
+            // Add tile layer (OpenStreetMap)
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+            
+            // Add marker
+            const marker = L.marker(matadi).addTo(map);
+            marker.bindPopup("<b>ISTA/Matadi</b><br>Matadi, Kongo Central").openPopup();
+            
+            // Add circle to show area
+            L.circle(matadi, {
+                color: 'blue',
+                fillColor: '#03a9f4',
+                fillOpacity: 0.1,
+                radius: 1000
+            }).addTo(map);
+        }
+        
+   
     
     
