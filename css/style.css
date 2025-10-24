@@ -1,6 +1,6 @@
 
         :root {
-            --primary: #2fdd03;
+            --primary:  #00af1d;
             --secondary: #CC9933;
             --accent: #0066CC;
             --light: #f8f9fa;
@@ -120,6 +120,10 @@
 
            nav a:hover, nav a.active {
             color: rgb(255, 230, 0);
+        }
+
+        nav a:hover::after, nav a.active::after {
+            width: 100%;
         }
 
         nav a::after {

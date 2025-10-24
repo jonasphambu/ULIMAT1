@@ -108,7 +108,7 @@
             font-size: 1.8rem;
             color: var(--gray);
         }
-nav ul {
+        nav ul {
             display: flex;
             list-style: none;
             gap: 1.5rem;
@@ -141,6 +141,14 @@ nav ul {
         nav a:hover{
             letter-spacing: 2px;
             color: rgb(255, 230, 0);
+        }
+
+         nav a:hover, nav a.active {
+            color: rgb(255, 230, 0);
+        }
+
+        nav a:hover::after, nav a.active::after {
+            width: 100%;
         }
 
         .mobile-menu {
