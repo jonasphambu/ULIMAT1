@@ -23,8 +23,8 @@
 
         /* Header */
         .top-bar {
-            background-color: #6c757d;
-            color: white;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
             padding: 0.5rem 0;
             font-size: 0.9rem;
         }
@@ -49,13 +49,13 @@
         }
 
         .top-bar-social a {
-            color: white;
+            color: rgb(0, 0, 0);
             margin-left: 1rem;
             transition: color 0.3s;
         }
 
         .top-bar-social a:hover {
-            color: var(--secondary);
+            color: #ff0000;
         }
 
         /* Navigation */
@@ -767,7 +767,7 @@ nav ul {
     }
     
     nav ul a::after {
-        background-color: var(--primary);
+        background-color: red;
     }
     
     .mobile-menu {
