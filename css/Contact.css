@@ -61,7 +61,7 @@
 
         /* Navigation */
         header {
-            background-image: linear-gradient(rgba(248, 211, 4, 0.493),rgba(0, 128, 0, 0.493));
+            background-image: linear-gradient(rgb(248, 211, 4),rgb(0, 128, 0));
             backdrop-filter: blur(7px);
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             position: sticky;
@@ -101,7 +101,7 @@
         }
 
           .logo h1{
-            color: #00af1d;
+            color: #aeebb8;
             font-size: 2rem;
             box-sizing: border-box;
         }
@@ -113,7 +113,7 @@
         }
 
         nav a {
-            color:#00af1d;
+            color:#aeebb8;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;

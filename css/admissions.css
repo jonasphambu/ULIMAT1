@@ -29,7 +29,7 @@
 
         /* Header */
         header {
-            background-image: linear-gradient(rgba(248, 211, 4, 0.493),rgba(0, 128, 0, 0.493));
+            background-image: linear-gradient(rgb(248, 211, 4),rgb(0, 128, 0));
             backdrop-filter: blur(7px);
             color: #00af1d;;
             padding: 1rem 0;
@@ -71,6 +71,7 @@
 
         .logo h1 {
             font-size: 2rem;
+            color: #aeebb8;
         }
 
         nav ul {
@@ -80,7 +81,7 @@
         }
 
         nav a {
-            color:#00af1d;
+            color:#aeebb8;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
