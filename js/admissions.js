@@ -272,7 +272,7 @@
             doc.setFontSize(20);
             doc.text('UNIVERSITÉ LIBRE DE MATADI', 105, 15, { align: 'center' });
             doc.setFontSize(16);
-            doc.text('FICHE D\'INSCRIPTION', 105, 25, { align: 'center' });
+            doc.text('FICHE D\'INSCRIPTION EN LIGNE', 105, 25, { align: 'center' });
             
             // Informations personnelles
             doc.setTextColor(0, 0, 0);
@@ -308,7 +308,7 @@
             doc.text(`Numéro de référence: ${refNumber}`, 20, 174);
             
             // Pied de page
-            doc.setFontSize(8);
+            doc.setFontSize(10);
             doc.setTextColor(100, 100, 100);
             doc.text('Ce document a été généré automatiquement par le système d\'inscription en ligne.', 105, 280, { align: 'center' });
             doc.text('Université Libre de Matadi - Matadi, Kongo Central, RDC', 105, 285, { align: 'center' });

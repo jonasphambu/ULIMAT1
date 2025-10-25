@@ -146,9 +146,9 @@
         /* Hero Section Contact */
         .contact-hero {
             height: 40vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(248, 211, 4, 0.493)),url(../img/IMG_4584.JPG);
+            background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(248, 211, 4, 0.493)),url(../img/IMG_5179.WEBP);
             background-size: cover;
-            background-position: top;
+            background-position: center;
             display: flex;
             align-items: center;
             color: white;
@@ -510,7 +510,7 @@
         }
 
         .btn-success {
-            background-color: var(--success-color);
+            background-color: var(--primary-color);
         }
 
         .btn-success:hover {
@@ -640,6 +640,7 @@
         .social-icons a:hover {
             background-color: var(--accent-color);
             transform: translateY(-5px);
+            color: red;
         }
 
         .copyright {
