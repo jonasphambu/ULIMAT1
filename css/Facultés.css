@@ -124,7 +124,7 @@
             font-size: 1rem;
         }
 
-        nav a::after {
+        nav li a::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -151,10 +151,28 @@
             width: 100%;
         }
 
+         .but{
+            background: transparent;
+            padding: 0.8rem 2rem;
+            color: #bdf5a6;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin: auto;
+        }
+
+        .but:hover{
+            background-image: linear-gradient(rgba(248, 4, 4, 0.582),rgba(255, 187, 0, 0.692));
+            padding: 0.8rem 2rem;
+            border-radius: 15px;
+            color: #fff;
+            transition: all 1ps;
+        }
+
         .mobile-menu {
             display: none;
             font-size: 1.5rem;
             cursor: pointer;
+            color: #000;
         }
 
         /* Hero Section Filières */

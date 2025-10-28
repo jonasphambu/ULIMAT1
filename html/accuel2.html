@@ -75,3 +75,15 @@ document.addEventListener('DOMContentLoaded', function() {
                             <label for="cv">CV (Optionnel)</label>
                             <input type="file" id="cv" class="form-control" accept=".pdf,.doc,.docx">
     
+                               position: fixed;
+                top: 0;
+                right: -100%;
+                width: 70%;
+                height: 100vh;
+                background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: var(--transition);
+                z-index: 1000;
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);

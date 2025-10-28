@@ -129,7 +129,7 @@
             color: rgb(255, 230, 0);
         }
 
-        nav a::after {
+        nav li a::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -144,11 +144,28 @@
             width: 100%;
         }
 
+         .but{
+            background: transparent;
+            padding: 0.8rem 2rem;
+            color: #bdf5a6;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin: auto;
+        }
+
+        .but:hover{
+            background-image: linear-gradient(rgba(248, 4, 4, 0.582),rgba(255, 187, 0, 0.692));
+            padding: 0.8rem 2rem;
+            border-radius: 15px;
+            color: #fff;
+            transition: all 1ps;
+        }
+
         .mobile-menu {
             display: none;
             font-size: 1.5rem;
             cursor: pointer;
-            color: #17c700;
+            color: #000;
         }
 
         /* Hero Section À Propos */
@@ -491,7 +508,7 @@
         }
 
         .partenaire-logo {
-            background-color: white;
+            background-image: linear-gradient(rgba(248, 211, 4, 0.582),rgba(0, 128, 0, 0.541));
             padding: 1.5rem;
             border-radius: 8px;
             display: flex;
@@ -503,6 +520,27 @@
             transform: scale(0.8);
         }
 
+
+        .btn-unikin{
+            background: transparent;
+            padding: 0.8rem 2rem;
+            color: #000000;
+            font-size: 1rem;
+            border-radius: 5px;
+            
+        }
+
+        .btn-unikin:hover{
+           background-color: #17c700;
+           color: #fff;
+           box-shadow: #000000;
+        }
+        
+        .bt{
+           padding-left: 43%;
+           padding-top: 50px;
+           margin-bottom: 5px;
+        }
         .partenaire-logo.animated {
             animation: fadeInScale 0.8s ease forwards;
         }
@@ -547,6 +585,14 @@
             font-size: 1.2rem;
             margin-bottom: 2rem;
             line-height: 1.6;
+        }
+
+        .btn1{
+            border: 2px solid #333;
+            position: absolute;
+            margin-bottom: 1.5px;
+            text-align: center;
+
         }
 
         .btn {
@@ -747,7 +793,7 @@
             }
             
             nav ul a::after {
-                background-color: var(--primary);
+                background-color: red;
             }
             
             .mobile-menu {
@@ -763,6 +809,9 @@
             .mobile-menu.active {
                 transform: rotate(90deg);
             }
+            .bt{
+           padding-left: 40%;
+        }
             
             /* Overlay quand le menu est ouvert */
             body.menu-open::after {
@@ -821,5 +870,8 @@
                 margin-bottom: 1rem;
                 width: fit-content;
             }
+
+             .bt{
+           padding-left: 30%;
         }
-    
+        }
