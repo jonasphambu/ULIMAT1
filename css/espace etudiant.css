@@ -1,0 +1,92 @@
+ :root {
+            --primary:  #00af1d;
+            --secondary: #CC9933;
+            --accent: #0066CC;
+            --light: #f8f9fa;
+            --dark: #333;
+            --gray: #6c757d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: var(--dark);
+            overflow-x: hidden;
+        }
+
+        .logo h1{
+            display: flex;
+            color: white;
+            justify-content: center;
+            font-size: 2rem;
+            text-shadow: #333;
+            animation: pulse 2s infinite;
+            top: 5%;
+            left: 10%;
+            position: absolute;
+        }
+      
+        header{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+            url(/img/IMG_5179.WEBP);
+            background-position: center;
+            background-size: cover;
+            height: 65vh;
+            width: 100vw;
+        }
+
+
+        button:hover{
+            background-color: #00af1d;
+            color: #fff;
+        }
+        button{
+            transition: color 0.3s;
+            position: relative;
+            padding: 15px 10px;
+            border-radius: 20px;
+            color: #fff;
+            background-color: #0066CC;
+            font-size: 1rem;
+            position: absolute;
+            left: 87%;
+            top: 15%;
+            border: 2px #fff solid;
+        }
+
+        input{
+            padding: 12.4px 35%;
+            background: transparent;
+            color: #fff;
+            font-size: 1.2rem;
+            border:  2px solid #ebe5e5;
+            border-radius: 30px;
+            text-align: justify;
+            position: absolute;
+            left: 10%;
+            top: 15%;
+        }
+
+        .text h1{
+            color: #fab700;
+            position: absolute;
+            top: 30%;
+            left: 45%;
+        }
+
+        .text p{
+           color: #fff;
+           position: absolute;
+           top: 37%;
+           left: 35%;
+        }
+
+
+      
+

@@ -1,7 +1,7 @@
 
         :root {
             --primary: #003366;
-            --secondary: #CC9933;
+            --secondary: red;
             --accent: #0066CC;
             --light: #f8f9fa;
             --dark: #333;
@@ -377,7 +377,7 @@
             left: 0;
             width: 50px;
             height: 2px;
-            background-color: var(--secondary);
+            background-color: #00af1d;
         }
 
         .footer-col p {

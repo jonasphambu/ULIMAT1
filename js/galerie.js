@@ -17,7 +17,12 @@
                 category: "evenements"
             },
             {
-                src: "photos/conference.jpg",
+                src: "/img/IMG2.Jgp",
+                title: "Cérémonie de Remise de Diplômes",
+                category: "Activité"
+            },
+            {
+                src: "img/IMG1.PNG",
                 title: "Conférence Internationale",
                 category: "evenements"
             },
@@ -27,12 +32,12 @@
                 category: "etudiants"
             },
             {
-                src: "photos/etudiants2.jpg",
-                title: "Vie sur le Campus",
-                category: "etudiants"
+                src: "/img/IMG.PNG",
+                title: "La remuse des Diplomes",
+                category: "evenements"
             },
             {
-                src: "photos/laboratoire.jpg",
+                src: "/img/IMG2.png",
                 title: "Laboratoire Informatique",
                 category: "campus"
             },
@@ -96,9 +101,10 @@
         // Obtenir le libellé de la catégorie
         function getCategoryLabel(category) {
             const labels = {
-                'campus': 'Campus',
-                'evenements': 'Événements',
-                'etudiants': 'Vie étudiante'
+                'Université': 'Université',
+                'événements': 'Événements',
+                'etudiants': 'Vie etudiants',
+                'Activité' : 'Activité'
             };
             return labels[category] || category;
         }
