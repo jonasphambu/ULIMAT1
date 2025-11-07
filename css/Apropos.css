@@ -172,7 +172,7 @@
         /* Hero Section À Propos */
         .hero-about {
             height: 50vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(77, 69, 1, 0.9)),url(../img/IMG_4583.JPG);
+            background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(5, 5, 5, 0.63)),url(../img/IMG_4583.JPG);
             background-size: cover; 
             background-position:center;   
             display: flex;
@@ -454,13 +454,14 @@
 
 
         .membre-img img {
-            width: 250px;
+            width: 150px;
             transition: transform 0.5s ease;
             overflow: hidden;
             object-fit: contain;
             align-items: center;
             border-radius: 50%;
             justify-content: center;
+            margin-left: 10%;
         }
 
         .membre-card:hover .membre-img img {
@@ -508,13 +509,15 @@
         }
 
         .partenaire-logo {
-            background-image: linear-gradient(rgba(248, 211, 4, 0.582),rgba(0, 128, 0, 0.541));
-            padding: 1.5rem;
+            background-image: linear-gradient(rgba(248, 211, 4, 0.137),rgba(0, 128, 0, 0.233)),
+            url(../img/IMG-20230903-WA0002-1024x766.jpg);
+            background-size: cover;
+            background-position: center;
             border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100px;
+            height: 50vh;
             transition: all 0.3s ease;
             opacity: 0;
             transform: scale(0.8);
@@ -547,18 +550,18 @@
 
         .partenaire-logo:hover {
             transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.692);
         }
 
         .partenaire-logo img {
             max-width: 100%;
-            max-height: 60px;
-            filter: grayscale(100%);
+            max-height: 100px;
             transition: filter 0.3s ease;
         }
 
         .partenaire-logo:hover img {
             filter: grayscale(0%);
+            filter: grayscale(100%);
         }
 
         /* CTA Section */

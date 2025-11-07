@@ -178,12 +178,13 @@
         /* Hero Section Filières */
         .hero-filieres {
             height: 50vh;
-            background: linear-gradient(rgba(255, 230, 0, 0.658), rgba(255, 0, 0, 0.466)),url(../img/IMG_4026.JPG);
+            background: linear-gradient(rgba(41, 37, 1, 0.301), rgba(22, 3, 3, 0.795)),
+            url(../img/IMG_5274.JPG);
             background-size: cover;
             background-position: center;
             display: flex;
             align-items: center;
-            color: white;
+            color: rgb(255, 255, 254);
             position: relative;
             overflow: hidden;
         }
@@ -202,6 +203,7 @@
         .hero-filieres h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
+            color: #ffee00;
         }
 
         .hero-filieres p {

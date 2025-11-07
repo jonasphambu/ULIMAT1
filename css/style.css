@@ -196,23 +196,23 @@
         }
 
         .hero-slide-1 {
-            background: linear-gradient(rgba(44, 44, 44, 0.8),
-            rgba(29, 28, 28, 0.685)), url(../img/matadi.png);
+            background: linear-gradient(rgba(0, 0, 0, 0.87),
+            rgba(2, 2, 2, 0.836)), url(../img/IMG_5269.JPG);
             background-position: center;
             background-size: cover;
         }
 
         .hero-slide-2 {
             background: linear-gradient(rgba(5, 5, 5, 0.8),
-            rgba(17, 17, 17, 0.575)), url(../img/IMG.PNG);
-            background-position: center;
+            rgba(17, 17, 17, 0.575)), url(../img/IMG_5267.JPG);
+            background-position: left;
             background-size: cover;
         }
         
 
         .hero-slide-3 {
-            background: linear-gradient(rgba(69, 92, 114, 0.8),
-            rgba(3, 3, 3, 0.9)),url(../img/e57e3206fa458c41ffe495f8823c4c58.jpg);
+            background: linear-gradient(rgba(0, 0, 0, 0.897),
+            rgba(3, 3, 3, 0.349)),url(../img/IMG.PNG);
             background-position: bottom;
             background-size: cover;
         }

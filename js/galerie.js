@@ -2,44 +2,56 @@
         // DONNÉES DES PHOTOS LOCALES - MODIFIEZ ICI
         const galerieData = [
             {
-                src: "photos/campus1.jpg",
-                title: "Bâtiment Principal ULIMAT",
-                category: "campus"
-            },
-            {
-                src: "photos/campus2.jpg", 
-                title: "Bibliothèque Universitaire",
-                category: "campus"
-            },
-            {
-                src: "photos/ceremonie.jpg",
-                title: "Cérémonie de Remise de Diplômes",
-                category: "evenements"
-            },
-            {
-                src: "/img/IMG2.Jgp",
-                title: "Cérémonie de Remise de Diplômes",
+                src: "../img/IMG_5277.JPG",
+                title: " Le soire Universitaire le 30 Juin",
                 category: "Activité"
             },
             {
-                src: "img/IMG1.PNG",
+                src: "../img/IMG_5269.JPG", 
+                title: "Bâtiment Principal ULIMAT",
+                category: "Université"
+            },
+           
+            {
+                src: "../img/IMG_5276.JPG",
+                title: "Marche de Santé Univesitaire Le 30 JUIN",
+                category: "Activité"
+            },
+             {
+                src: "../img/IMG_5272.JPG",
+                title: "Tournoi Sportif Universitaire",
+                category: "Activité"
+            },
+             {
+                src: "../img/IMG_5273.JPG",
+                title: "Tournoi Sportif Universitaire",
+                category: "Activité"
+            },
+           
+             {
+                src: "../img/IMG_5270.JPG",
+                title: "Sortie Universitaire le 30 Juin",
+                category: "Activité"
+            },
+            {
+                src: "../img/IMG1.PNG",
                 title: "Conférence Internationale",
                 category: "evenements"
             },
             {
-                src: "photos/etudiants1.jpg",
+                src: "../img/QS.png",
                 title: "Étudiants en Groupe de Travail",
                 category: "etudiants"
             },
             {
-                src: "/img/IMG.PNG",
+                src: "../img/IMG.PNG",
                 title: "La remuse des Diplomes",
                 category: "evenements"
             },
             {
                 src: "/img/IMG2.png",
-                title: "Laboratoire Informatique",
-                category: "campus"
+                title: "La remuse des Diplomes",
+                category: "evenements"
             },
             {
                 src: "photos/sport.jpg",
